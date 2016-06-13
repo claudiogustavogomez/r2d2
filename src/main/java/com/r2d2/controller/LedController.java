@@ -28,5 +28,4 @@ public class LedController {
 		pin.toggle();
 		return "OK";
 	}
-	
 }
