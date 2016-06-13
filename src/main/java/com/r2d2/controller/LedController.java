@@ -14,7 +14,7 @@ public class LedController {
 	
 	private static GpioPinDigitalOutput pin;
 	
-	@RequestMapping("/")
+	@RequestMapping("/hello")
 	public String saludo() {
 		return "Hello Artur !!";
 	}
