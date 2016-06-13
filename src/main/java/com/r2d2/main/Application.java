@@ -4,9 +4,14 @@ import java.io.FileInputStream;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
 import javazoom.jl.player.Player;
 
 @SpringBootApplication
+@Configuration
+@ComponentScan(basePackageClasses = Application.class)
 public class Application {
 
 	public static void main(String[] args) {
