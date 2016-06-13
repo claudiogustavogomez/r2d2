@@ -1,17 +1,9 @@
 package com.r2d2.main;
 
-import java.io.FileInputStream;
-
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import javazoom.jl.player.Player;
-
-@EnableAutoConfiguration
-@Configuration
-@ComponentScan
+@SpringBootApplication
 public class Application {
 
 	public static void main(String[] args) {

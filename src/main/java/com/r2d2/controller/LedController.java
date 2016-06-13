@@ -14,12 +14,12 @@ public class LedController {
 	
 	private static GpioPinDigitalOutput pin;
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/")
 	public String saludo() {
 		return "Hello Artur !!";
 	}
 	
-	@RequestMapping("led")
+	@RequestMapping("/led")
 	public String led(){
 		if(pin == null){
 			GpioController gpio = GpioFactory.getInstance();
