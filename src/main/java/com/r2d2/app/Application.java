@@ -1,4 +1,4 @@
-package com.r2d2;
+package com.r2d2.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

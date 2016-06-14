@@ -1,4 +1,4 @@
-package com.r2d2.controller;
+package com.r2d2.app.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
