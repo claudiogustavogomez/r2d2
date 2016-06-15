@@ -1,5 +1,6 @@
 package com.r2d2.app.web;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,6 +11,7 @@ import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
 
 @RestController
+@EnableAutoConfiguration
 public class LedController {
 	
 	private static GpioPinDigitalOutput pin;
