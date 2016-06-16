@@ -1,5 +1,6 @@
 package com.r2d2.app.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +10,7 @@ import com.pi4j.io.gpio.GpioPinDigitalOutput;
 import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
 
-@RestController
+@Controller
 public class LedController {
 	
 	private static GpioPinDigitalOutput pin;
@@ -29,3 +30,4 @@ public class LedController {
 		return "OK";
 	}
 }
+
