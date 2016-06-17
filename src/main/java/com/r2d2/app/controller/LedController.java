@@ -11,7 +11,6 @@ import com.pi4j.io.gpio.RaspiPin;
 
 @RestController
 public class LedController {
-	
 	private static GpioPinDigitalOutput pin;
 
 	@RequestMapping("/")
