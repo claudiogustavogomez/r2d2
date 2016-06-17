@@ -1,4 +1,4 @@
-package com.r2d2.app;
+package com.r2d2.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.r2d2.app.controller.LedController;
+import com.r2d2.application.controller.LedController;
 
 @SpringBootApplication
 @ComponentScan(basePackageClasses=LedController.class)
