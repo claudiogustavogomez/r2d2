@@ -13,7 +13,7 @@ import com.pi4j.io.gpio.RaspiPin;
 public class LedController {
 	
 	private static GpioPinDigitalOutput pin;
-	
+
 	@RequestMapping("/")
 	public String saludo() {
 		return "Hello Artur !!";
